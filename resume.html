@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1E1E1E;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #F3E8EE;
+            line-height: 1.6;
+        }
+
+        .resume-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #2C2C2C;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            
+        }
+
+        .header h1 {
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+
+        .header p {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #A37C40;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #404542;
+            padding-bottom: 0.5rem;
+        }
+
+        .content {
+            margin-left: 1rem;
+        }
+
+        .content p {
+            margin-bottom: 0.5rem;
+        }
+
+        .list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .resume-container {
+                padding: 1.5rem;
+            }
+
+            .header h1 {
+                font-size: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .resume-container {
+                padding: 1rem;
+            }
+        }
+    </style>
+     <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left-nav">
+                <h5 class="Front">Aurangzaib Nasir</h5><span class="line1">|</span>
+                <h5 class="Front">Front end dev</h5>
+            </div>
+
+            <div class="right-nav">
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class=" right-nav">
+                    <a href="index.html">Home</a><span class="line">|</span>
+                    <a href="resume.html">Resume</a><span class="line">|</span>
+                    <a href="pro.html">Projects</a><span class="line">|</span>
+                    <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="resume-container">
+        <div class="header">
+            <h1>Aurangzaib Nasir</h1>
+            <p>Front-End Developer skilled in HTML, CSS, and JavaScript. Experienced in C++, Java, and Java Swing for desktop apps. Focused on intuitive UIs, cross-browser compatibility, and staying current with industry trends.</p>
+            <p>Lahore, Pakistan | 03234921490 | aurangzaibnasir986@gmail.com</p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="content">
+                <p><strong>Restaurant Homepage:</strong> Created a restaurant website homepage using HTML, CSS, and JavaScript. Designed a visually appealing layout, implemented responsive design for various devices, and added interactive features to enhance user experience.</p>
+                <p><strong>Word Guess Game (C++):</strong> Developed a C++ word guessing game where players guess scrambled words across 10 levels. Rewards special achievement for completing all levels without errors.</p>
+                <p><strong>Word Guess Game (Java/Java Swing):</strong> Created a Java word guessing game with a GUI featuring scrambled words in easy, medium, and hard modes, each with 20 words. Includes login/signup and stores user data and high scores in MySQL.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Certificates</h2>
+            <ul class="list">
+                <li>HTML, CSS, and JavaScript for Web Developers - Johns Hopkins University</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="content">
+                <p><strong>Bachelor of Computer Science:</strong> Riphah International University (2023 – 2026)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="content">
+                <p><strong>Programming Languages:</strong> HTML, CSS, JavaScript, Java/Java Swing, C++</p>
+                <p><strong>Tools & Technologies:</strong> Responsive Web Design, API Integration, Bootstrap</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">References</h2>
+            <div class="content">
+                <p>Available upon request</p>
+            </div>
+        </div>
+
+        <div class="contact-info">
+            <p>Email: aurangzaibnasir986@gmail.com</p>
+            <p>Phone: 03234921490</p>
+        </div>
+    </div>
+</body>
+</html>

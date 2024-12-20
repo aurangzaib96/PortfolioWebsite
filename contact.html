@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1E1E1E;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #F3E8EE;
+            line-height: 1.6;
+        }
+
+        .contact-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: #2C2C2C;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .contact-header h1 {
+            font-size: 2rem;
+            color: #A37C40;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-form label {
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .contact-form input, .contact-form textarea, .contact-form button {
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form input, .contact-form textarea {
+            background-color: #404542;
+            color: white;
+        }
+
+        .contact-form input:focus, .contact-form textarea:focus {
+            outline: none;
+            background-color: #505655;
+        }
+
+        .contact-form button {
+            background-color: #A37C40;
+            color: #1E1E1E;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #A37C40;
+        }
+
+        .contact-info {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        .contact-info p {
+            margin: 0.5rem 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: #A37C40;
+            text-decoration: none;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-links a:hover {
+            color: #FFFFFF;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                padding: 1.5rem;
+            }
+
+            .contact-header h1 {
+                font-size: 1.5rem;
+            }
+
+            .contact-form input, .contact-form textarea, .contact-form button {
+                font-size: 0.9rem;
+                padding: 0.6rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact-container {
+                padding: 1rem;
+            }
+
+            .social-links a {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="Home.css">
+   
+   
+   
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="left-nav">
+                <h5 class="Front">Aurangzaib Nasir</h5><span class="line1">|</span>
+                <h5 class="Front">Front end dev</h5>
+            </div>
+
+            <div class="right-nav">
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class=" right-nav">
+                    <a href="index.html">Home</a><span class="line">|</span>
+                    <a href="resume.html">Resume</a><span class="line">|</span>
+                    <a href="pro.html">Projects</a><span class="line">|</span>
+                    <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Fill out the form below to get in touch.</p>
+        </div>
+
+        <form class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: aurangzaibnasir986@gmail.com</p>
+            <p>Phone: +92 3234921490</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aurangzaib-nasir-339869280/" target="_blank">&#x1F465; LinkedIn</a>
+        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
